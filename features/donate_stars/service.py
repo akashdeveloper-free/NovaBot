@@ -1,0 +1,2 @@
+class DonateStarsService:
+    pass
