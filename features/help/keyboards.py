@@ -1,0 +1,3 @@
+from aiogram.types import InlineKeyboardButton,InlineKeyboardMarkup
+def menu_keyboard(): return InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text='📖 FAQ',callback_data='help:faq')],[InlineKeyboardButton(text='ℹ️ About NovaBot',callback_data='help:about')],[InlineKeyboardButton(text='⬅️ Back',callback_data='nav:back'),InlineKeyboardButton(text='🏠 Main Menu',callback_data='nav:home')]])
+def action_keyboard(): return InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text='⬅️ Back',callback_data='nav:back'),InlineKeyboardButton(text='🏠 Main Menu',callback_data='nav:home')]])
